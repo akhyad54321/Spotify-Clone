@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Page</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify"> Spotify</li>
+            <li class="brand1"><a href="https://www.instagram.com/akhiii_012/" target="_blank"><img src="i6.jpeg" alt="myImage"></a></li>
+            <li><a href="index.html"> HomePage </a></li>
+            <li><a href="#"> Feedback </a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <form align="center" action="success.html" target="_blank">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your First name.." required><br><br>
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your Last name.." required><br><br>
+
+          <label for="phn">Phone No</label>
+          <input type="contact" id="phn" name="phn" placeholder="Your Contact No" required><br><br>
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="india">India</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select><br><br>
+      
+          <label for="subject">Feedback </label><br>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px ; width: 400px;" required></textarea><br>
+      
+          <input type="submit" value="SUBMIT" id="sub">
+          <input type="reset" value="RESET">
+
+        </form>
+        <!-- <p><b id="feed"></b></p> -->
+      </div>
+
+</body>
+</html>
